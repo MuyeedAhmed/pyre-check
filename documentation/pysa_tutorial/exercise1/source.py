@@ -5,6 +5,7 @@ import os
 import numpy as np
 
 
+
 # def get_image(url):
 #     command = "wget -q https:{}".format(url)
 #     return os.system(command)
@@ -12,10 +13,14 @@ import numpy as np
 # def convert():
 #     image_link = input("image link: ")
 #     image = get_image(image_link)
-    
+# @pyre_dump_call_graph
 def get_label():
-    X = input("")
-    # X = np.array([[1, 2], [1, 4], [1, 0], [4, 2], [4, 4], [4, 0]])
+    # pyre_dump_call_graph()
+    # X = input("")
+
+    # def input(__prompt) -> TaintSource[UserControlled]: ...
+
+    X = np.array([[1, 2], [1, 4], [1, 0], [4, 2], [4, 4], [4, 0]])
     # clustering = AffinityPropagation(random_state=5).fit(X)
     # c = clustering.labels_
     c = _affinity_propagation(X)
@@ -48,6 +53,8 @@ def _affinity_propagation(
     S += (
         np.finfo(S.dtype).eps * S + np.finfo(S.dtype).tiny * 100
     ) * random_state.standard_normal(size=(n_samples, n_samples))
+    
+    reveal_taint(S)
 
     # Execute parallel affinity propagation updates
     e = np.zeros((n_samples, convergence_iter))
