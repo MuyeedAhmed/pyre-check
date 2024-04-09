@@ -16,8 +16,8 @@ import numpy as np
 # @pyre_dump_call_graph
 def get_label():
     # pyre_dump_call_graph()
-    X = input("")
-    # X = np.array([[1, 2], [1, 4], [1, 0], [4, 2], [4, 4], [4, 0]])
+    # X = input("")
+    X = np.array([[1, 2], [1, 4], [1, 0], [4, 2], [4, 4], [4, 0]])
     clustering = _affinity_propagation(random_state=5).fit(X)
     c = clustering.labels_
     # reveal_taint(X)
@@ -61,7 +61,8 @@ def _affinity_propagation(
     for it in range(max_iter):
         # tmp = A + S; compute responsibilities
         np.add(A, S, tmp)
-        I = np.argmax(tmp, axis=1)
+        # I = np.argmax(tmp, axis=1)
+        I = input("")
         Y = tmp[ind, I]  # np.max(A + S, axis=1)
         tmp[ind, I] = -np.inf
         Y2 = np.max(tmp, axis=1)
@@ -100,6 +101,7 @@ def _affinity_propagation(
             unconverged = np.sum((se == convergence_iter) + (se == 0)) != n_samples
             if (not unconverged and (K > 0)) or (it == max_iter):
                 never_converged = False
+                print(never_converged)
                 if verbose:
                     print("Converged after %d iterations." % it)
                 break
