@@ -23,6 +23,7 @@ def get_label():
     X = np.array([[1, 2], [1, 4], [1, 0], [4, 2], [4, 4], [4, 0]])
     # clustering = AffinityPropagation(random_state=5).fit(X)
     # c = clustering.labels_
+    # reveal_taint(X)
     c = _affinity_propagation(X)
     # result = eval(f"c[2] * c[1]")
     return os.system(c)
@@ -38,6 +39,7 @@ def _affinity_propagation(
     return_n_iter=False,
     random_state=None,
 ):
+    pyre_dump_call_graph()
     """Main affinity propagation algorithm."""
     n_samples = S.shape[0]
 
@@ -54,7 +56,7 @@ def _affinity_propagation(
         np.finfo(S.dtype).eps * S + np.finfo(S.dtype).tiny * 100
     ) * random_state.standard_normal(size=(n_samples, n_samples))
     
-    reveal_taint(S)
+    # reveal_taint(S)
 
     # Execute parallel affinity propagation updates
     e = np.zeros((n_samples, convergence_iter))
