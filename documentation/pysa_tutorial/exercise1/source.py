@@ -16,17 +16,12 @@ import numpy as np
 # @pyre_dump_call_graph
 def get_label():
     # pyre_dump_call_graph()
-    # X = input("")
-
-    # def input(__prompt) -> TaintSource[UserControlled]: ...
-
-    X = np.array([[1, 2], [1, 4], [1, 0], [4, 2], [4, 4], [4, 0]])
-    # clustering = AffinityPropagation(random_state=5).fit(X)
-    # c = clustering.labels_
+    X = input("")
+    # X = np.array([[1, 2], [1, 4], [1, 0], [4, 2], [4, 4], [4, 0]])
+    clustering = _affinity_propagation(random_state=5).fit(X)
+    c = clustering.labels_
     # reveal_taint(X)
-    c = _affinity_propagation(X)
-    # result = eval(f"c[2] * c[1]")
-    return os.system(c)
+    print(c)
     
 def _affinity_propagation(
     S,
@@ -39,7 +34,7 @@ def _affinity_propagation(
     return_n_iter=False,
     random_state=None,
 ):
-    pyre_dump_call_graph()
+    # pyre_dump_call_graph()
     """Main affinity propagation algorithm."""
     n_samples = S.shape[0]
 
