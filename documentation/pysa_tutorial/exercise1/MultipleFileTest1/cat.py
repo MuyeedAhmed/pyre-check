@@ -10,7 +10,7 @@ class Cat(Animal):
     def status(self, real_age):
         dead=False
         if real_age > 3:
-            print("Cat is dead")
+            print(f"Cat {real_age} is dead")
             dead = True
         else:
             print("Cat is alive")
