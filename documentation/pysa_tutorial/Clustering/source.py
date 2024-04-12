@@ -50,23 +50,23 @@ def _affinity_propagation(
     S += (
         np.finfo(S.dtype).eps * S + np.finfo(S.dtype).tiny * 100
     ) * random_state.standard_normal(size=(n_samples, n_samples))
-    
+    n_samples = foo()
     # reveal_taint(S)
 
     # Execute parallel affinity propagation updates
     e = np.zeros((n_samples, convergence_iter))
 
     ind = np.arange(n_samples)
-
+    # ind = input("")
     for it in range(max_iter):
         # tmp = A + S; compute responsibilities
         np.add(A, S, tmp)
-        # I = np.argmax(tmp, axis=1)
-        I = input("")
+        I = np.argmax(tmp, axis=1)
+        # I = input("")
         Y = tmp[ind, I]  # np.max(A + S, axis=1)
         tmp[ind, I] = -np.inf
         Y2 = np.max(tmp, axis=1)
-
+        
         # tmp = Rnew
         np.subtract(S, Y[:, None], tmp)
         tmp[ind, I] = S[ind, I] - Y2
@@ -133,8 +133,12 @@ def _affinity_propagation(
         
         labels = np.array([-1] * n_samples)
         cluster_centers_indices = []
-
+    print(labels)
     if return_n_iter:
         return cluster_centers_indices, labels, it + 1
     else:
         return cluster_centers_indices, labels
+
+
+def foo():
+    return 0

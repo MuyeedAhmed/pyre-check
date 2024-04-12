@@ -1,0 +1,614 @@
+{
+  "hasattr": [
+    "markupsafe.Markup.__mod__",
+    "markupsafe.Markup.__new__"
+  ],
+  "input": [
+    "source.foo"
+  ],
+  "isinstance": [
+    "markupsafe.Markup.__mod__"
+  ],
+  "print": [
+    "source._affinity_propagation",
+    "source.get_label"
+  ],
+  "source._affinity_propagation": [
+    "source.get_label"
+  ],
+  "source.foo": [
+    "source._affinity_propagation"
+  ],
+  "_csv._reader.__next__": [
+    "Ovr{_csv._reader.__next__}"
+  ],
+  "codecs.StreamReaderWriter.__next__": [
+    "Ovr{codecs.StreamReaderWriter.__next__}"
+  ],
+  "codecs.StreamRecoder.__next__": [
+    "Ovr{codecs.StreamRecoder.__next__}"
+  ],
+  "csv.DictReader.__next__": [
+    "Ovr{csv.DictReader.__next__}"
+  ],
+  "django.core.files.base.File.__next__": [
+    "Ovr{django.core.files.base.File.__next__}"
+  ],
+  "enumerate.__next__": [
+    "Ovr{enumerate.__next__}"
+  ],
+  "fileinput.FileInput.__next__": [
+    "Ovr{fileinput.FileInput.__next__}"
+  ],
+  "filter.__next__": [
+    "Ovr{filter.__next__}"
+  ],
+  "gdb.LineTable.__next__": [
+    "Ovr{gdb.LineTable.__next__}"
+  ],
+  "gdb.RegisterDescriptorIterator.__next__": [
+    "Ovr{gdb.RegisterDescriptorIterator.__next__}"
+  ],
+  "gdb.RegisterGroupsIterator.__next__": [
+    "Ovr{gdb.RegisterGroupsIterator.__next__}"
+  ],
+  "influxdb_client.client.flux_table.CSVIterator.__next__": [
+    "Ovr{influxdb_client.client.flux_table.CSVIterator.__next__}"
+  ],
+  "int.__add__": [
+    "source._affinity_propagation"
+  ],
+  "int.__eq__": [
+    "source._affinity_propagation"
+  ],
+  "int.__ge__": [
+    "source._affinity_propagation"
+  ],
+  "int.__lt__": [
+    "source._affinity_propagation"
+  ],
+  "int.__mod__": [
+    "source._affinity_propagation"
+  ],
+  "int.__ne__": [
+    "source._affinity_propagation"
+  ],
+  "int.__sub__": [
+    "source._affinity_propagation"
+  ],
+  "itertools.accumulate.__next__": [
+    "Ovr{itertools.accumulate.__next__}"
+  ],
+  "itertools.chain.__next__": [
+    "Ovr{itertools.chain.__next__}"
+  ],
+  "itertools.combinations.__next__": [
+    "Ovr{itertools.combinations.__next__}"
+  ],
+  "itertools.combinations_with_replacement.__next__": [
+    "Ovr{itertools.combinations_with_replacement.__next__}"
+  ],
+  "itertools.compress.__next__": [
+    "Ovr{itertools.compress.__next__}"
+  ],
+  "itertools.count.__next__": [
+    "Ovr{itertools.count.__next__}"
+  ],
+  "itertools.cycle.__next__": [
+    "Ovr{itertools.cycle.__next__}"
+  ],
+  "itertools.dropwhile.__next__": [
+    "Ovr{itertools.dropwhile.__next__}"
+  ],
+  "itertools.filterfalse.__next__": [
+    "Ovr{itertools.filterfalse.__next__}"
+  ],
+  "itertools.groupby.__next__": [
+    "Ovr{itertools.groupby.__next__}"
+  ],
+  "itertools.islice.__next__": [
+    "Ovr{itertools.islice.__next__}"
+  ],
+  "itertools.pairwise.__next__": [
+    "Ovr{itertools.pairwise.__next__}"
+  ],
+  "itertools.permutations.__next__": [
+    "Ovr{itertools.permutations.__next__}"
+  ],
+  "itertools.product.__next__": [
+    "Ovr{itertools.product.__next__}"
+  ],
+  "itertools.repeat.__next__": [
+    "Ovr{itertools.repeat.__next__}"
+  ],
+  "itertools.starmap.__next__": [
+    "Ovr{itertools.starmap.__next__}"
+  ],
+  "itertools.takewhile.__next__": [
+    "Ovr{itertools.takewhile.__next__}"
+  ],
+  "itertools.zip_longest.__next__": [
+    "Ovr{itertools.zip_longest.__next__}"
+  ],
+  "list.__mul__": [
+    "source._affinity_propagation"
+  ],
+  "map.__next__": [
+    "Ovr{map.__next__}"
+  ],
+  "markupsafe.Markup.__mod__": [
+    "Ovr{markupsafe.Markup.__mod__}"
+  ],
+  "markupsafe.Markup.__new__": [
+    "markupsafe.Markup.__mod__",
+    "markupsafe.Markup.escape"
+  ],
+  "markupsafe.Markup.escape": [
+    "markupsafe.Markup.__mod__"
+  ],
+  "markupsafe._MarkupEscapeHelper.__init__": [
+    "markupsafe.Markup.__mod__"
+  ],
+  "multiprocessing.pool.IMapIterator.__next__": [
+    "Ovr{multiprocessing.pool.IMapIterator.__next__}"
+  ],
+  "object.__class__": [
+    "markupsafe.Markup.__mod__"
+  ],
+  "object.__init__": [
+    "markupsafe.Markup.__mod__",
+    "markupsafe.Markup.escape"
+  ],
+  "object.__new__": [
+    "markupsafe.Markup.__mod__",
+    "markupsafe.Markup.__new__",
+    "source._affinity_propagation"
+  ],
+  "os._ScandirIterator.__next__": [
+    "Ovr{os._ScandirIterator.__next__}"
+  ],
+  "pip._vendor.rich._null_file.NullFile.__next__": [
+    "Ovr{pip._vendor.rich._null_file.NullFile.__next__}"
+  ],
+  "range.__init__": [
+    "source._affinity_propagation"
+  ],
+  "range.__iter__": [
+    "source._affinity_propagation"
+  ],
+  "reversed.__next__": [
+    "Ovr{reversed.__next__}"
+  ],
+  "slice.__init__": [
+    "source._affinity_propagation"
+  ],
+  "sqlite3.dbapi2.Cursor.__next__": [
+    "Ovr{sqlite3.dbapi2.Cursor.__next__}"
+  ],
+  "str.__mod__": [
+    "Ovr{str.__mod__}",
+    "markupsafe.Markup.__mod__"
+  ],
+  "str.__new__": [
+    "markupsafe.Markup.__new__"
+  ],
+  "super.__init__": [
+    "markupsafe.Markup.__mod__",
+    "markupsafe.Markup.__new__"
+  ],
+  "tempfile.SpooledTemporaryFile.__next__": [
+    "Ovr{tempfile.SpooledTemporaryFile.__next__}"
+  ],
+  "tempfile._TemporaryFileWrapper.__next__": [
+    "Ovr{tempfile._TemporaryFileWrapper.__next__}"
+  ],
+  "tuple.__iter__": [
+    "markupsafe.Markup.__mod__"
+  ],
+  "tuple.__new__": [
+    "markupsafe.Markup.__mod__"
+  ],
+  "type.__init__": [
+    "markupsafe.Markup.__mod__"
+  ],
+  "type.__new__": [
+    "markupsafe.Markup.__mod__"
+  ],
+  "types.GeneratorType.__next__": [
+    "Ovr{types.GeneratorType.__next__}"
+  ],
+  "typeshed.typeshed.stdlib._csv._reader.__next__": [
+    "Ovr{typeshed.typeshed.stdlib._csv._reader.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.builtins.enumerate.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.builtins.enumerate.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.builtins.filter.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.builtins.filter.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.builtins.map.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.builtins.map.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.builtins.reversed.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.builtins.reversed.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.builtins.zip.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.builtins.zip.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.codecs.StreamReaderWriter.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.codecs.StreamReaderWriter.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.codecs.StreamRecoder.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.codecs.StreamRecoder.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.csv.DictReader.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.csv.DictReader.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.fileinput.FileInput.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.fileinput.FileInput.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.accumulate.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.accumulate.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.chain.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.chain.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.combinations.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.combinations.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.combinations_with_replacement.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.combinations_with_replacement.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.compress.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.compress.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.count.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.count.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.cycle.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.cycle.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.dropwhile.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.dropwhile.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.filterfalse.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.filterfalse.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.groupby.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.groupby.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.islice.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.islice.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.pairwise.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.pairwise.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.permutations.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.permutations.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.product.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.product.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.repeat.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.repeat.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.starmap.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.starmap.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.takewhile.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.takewhile.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.itertools.zip_longest.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.itertools.zip_longest.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.multiprocessing.pool.IMapIterator.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.multiprocessing.pool.IMapIterator.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.os._ScandirIterator.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.os._ScandirIterator.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.sqlite3.dbapi2.Cursor.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.sqlite3.dbapi2.Cursor.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.tempfile.SpooledTemporaryFile.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.tempfile.SpooledTemporaryFile.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.tempfile._TemporaryFileWrapper.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.tempfile._TemporaryFileWrapper.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.types.GeneratorType.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.types.GeneratorType.__next__}"
+  ],
+  "typeshed.typeshed.stdlib.urllib.response.addbase.__next__": [
+    "Ovr{typeshed.typeshed.stdlib.urllib.response.addbase.__next__}"
+  ],
+  "typeshed.typeshed.stubs.gdb.gdb.LineTable.__next__": [
+    "Ovr{typeshed.typeshed.stubs.gdb.gdb.LineTable.__next__}"
+  ],
+  "typeshed.typeshed.stubs.gdb.gdb.RegisterDescriptorIterator.__next__": [
+    "Ovr{typeshed.typeshed.stubs.gdb.gdb.RegisterDescriptorIterator.__next__}"
+  ],
+  "typeshed.typeshed.stubs.gdb.gdb.RegisterGroupsIterator.__next__": [
+    "Ovr{typeshed.typeshed.stubs.gdb.gdb.RegisterGroupsIterator.__next__}"
+  ],
+  "typeshed.typeshed.stubs.influxdb-client.influxdb_client.client.flux_table.CSVIterator.__next__": [
+    "Ovr{typeshed.typeshed.stubs.influxdb-client.influxdb_client.client.flux_table.CSVIterator.__next__}"
+  ],
+  "typeshed.typeshed.stubs.translationstring.translationstring.TranslationString.__mod__": [
+    "Ovr{typeshed.typeshed.stubs.translationstring.translationstring.TranslationString.__mod__}"
+  ],
+  "typing.Generator.__next__": [
+    "Ovr{typing.Generator.__next__}"
+  ],
+  "typing.IO.__next__": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "typing.Iterator.__next__": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "urllib.response.addbase.__next__": [
+    "Ovr{urllib.response.addbase.__next__}"
+  ],
+  "zip.__next__": [
+    "Ovr{zip.__next__}"
+  ],
+  "Ovr{_csv._reader.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{codecs.StreamReaderWriter.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{codecs.StreamRecoder.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{csv.DictReader.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{django.core.files.base.File.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{enumerate.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{fileinput.FileInput.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{filter.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{gdb.LineTable.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{gdb.RegisterDescriptorIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{gdb.RegisterGroupsIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{influxdb_client.client.flux_table.CSVIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.accumulate.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.chain.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.combinations.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.combinations_with_replacement.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.compress.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.count.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.cycle.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.dropwhile.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.filterfalse.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.groupby.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.islice.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.pairwise.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.permutations.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.product.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.repeat.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.starmap.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.takewhile.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{itertools.zip_longest.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{map.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{markupsafe.Markup.__mod__}": [
+    "Ovr{str.__mod__}"
+  ],
+  "Ovr{multiprocessing.pool.IMapIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{os._ScandirIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{pip._vendor.rich._null_file.NullFile.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{reversed.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{sqlite3.dbapi2.Cursor.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{str.__mod__}": [
+    "source._affinity_propagation"
+  ],
+  "Ovr{tempfile.SpooledTemporaryFile.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{tempfile._TemporaryFileWrapper.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{types.GeneratorType.__next__}": [
+    "Ovr{typing.Generator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib._csv._reader.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.builtins.enumerate.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.builtins.filter.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.builtins.map.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.builtins.reversed.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.builtins.zip.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.codecs.StreamReaderWriter.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.codecs.StreamRecoder.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.csv.DictReader.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.fileinput.FileInput.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.accumulate.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.chain.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.combinations.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.combinations_with_replacement.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.compress.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.count.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.cycle.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.dropwhile.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.filterfalse.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.groupby.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.islice.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.pairwise.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.permutations.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.product.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.repeat.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.starmap.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.takewhile.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.itertools.zip_longest.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.multiprocessing.pool.IMapIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.os._ScandirIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.sqlite3.dbapi2.Cursor.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.tempfile.SpooledTemporaryFile.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.tempfile._TemporaryFileWrapper.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.types.GeneratorType.__next__}": [
+    "Ovr{typing.Generator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stdlib.urllib.response.addbase.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stubs.gdb.gdb.LineTable.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stubs.gdb.gdb.RegisterDescriptorIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stubs.gdb.gdb.RegisterGroupsIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stubs.influxdb-client.influxdb_client.client.flux_table.CSVIterator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typeshed.typeshed.stubs.translationstring.translationstring.TranslationString.__mod__}": [
+    "Ovr{str.__mod__}"
+  ],
+  "Ovr{typing.Generator.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typing.IO.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ],
+  "Ovr{typing.Iterator.__next__}": [
+    "markupsafe.Markup.__mod__",
+    "source._affinity_propagation"
+  ],
+  "Ovr{urllib.response.addbase.__next__}": [
+    "Ovr{typing.IO.__next__}"
+  ],
+  "Ovr{zip.__next__}": [
+    "Ovr{typing.Iterator.__next__}"
+  ]
+}

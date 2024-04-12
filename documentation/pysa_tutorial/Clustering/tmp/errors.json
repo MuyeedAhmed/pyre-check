@@ -1,0 +1,1 @@
+[{"line":136,"column":10,"stop_line":136,"stop_column":16,"path":"source.py","code":5003,"name":"Print Out","description":"Print Out [5003]: Data from [UserControlled] source(s) may reach [Print] sink(s)","define":"source._affinity_propagation"}]
