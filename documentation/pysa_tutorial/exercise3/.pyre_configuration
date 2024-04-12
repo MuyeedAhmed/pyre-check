@@ -4,7 +4,6 @@
     "."
   ],
   "taint_models_path": [
-    "../../../stubs/taint/",
     "."
   ],
   "search_path": [
