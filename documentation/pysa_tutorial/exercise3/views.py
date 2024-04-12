@@ -7,7 +7,8 @@ from django.http import HttpRequest, HttpResponse
 
 
 def example_sanitizer():
-    ...
+    data = input("")
+    print(data)
 
 
 def get_operator_safe(request: HttpRequest) -> str:
