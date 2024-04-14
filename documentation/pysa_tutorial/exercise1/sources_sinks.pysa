@@ -2,29 +2,7 @@ django.http.request.HttpRequest.GET: TaintSource[CustomUserControlled] = ...
 
 def eval(__source: TaintSink[CodeExecution], __globals, __locals): ...
 
-def source(): TaintSource[variable] = ...
-def input(__prompt: "1") -> TaintSource[UserControlled_1]: ...
-def input(__prompt: "2") -> TaintSource[UserControlled_2]: ...
-
-
-ModelQuery(
-  # Indicates the name of the query
-  name = "get_foo_sources",
-  # Indicates that this query is looking for functions
-  find = "functions",
-  # Indicates those functions should be called 'foo'
-  where = [name.matches("foo")],
-  # Indicates that matched function should be modeled as returning 'Test' taint
-  model = [
-    Returns(TaintSource[Test]),
-  ],
-  # Indicates that the generated models should include the 'foo' and 'foo2' functions
-  expected_models = [
-    "def source.foo() -> TaintSource[Test]: ..."
-  ]
-)
-
-
+def input(__prompt) -> TaintSource[UserControlled]: ...
 
 
 def os.system(command: TaintSink[RemoteCodeExecution]): ...

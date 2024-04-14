@@ -1,0 +1,71 @@
+{
+  "eval": [
+    "views.operate_on_twos"
+  ],
+  "exec": [
+    "views.operate_on_threes"
+  ],
+  "input": [
+    "views.example_sanitizer"
+  ],
+  "print": [
+    "views.example_sanitizer"
+  ],
+  "views.get_operator_safe": [
+    "views.operate_on_twos"
+  ],
+  "views.operate_on_threes": [
+    "views.wrap_operate_on_threes"
+  ],
+  "django.http.request._ImmutableQueryDict.__getitem__": [
+    "views.get_operator_safe",
+    "views.operate_on_threes"
+  ],
+  "markupsafe.Markup.__repr__": [
+    "markupsafe.Markup.__repr__",
+    "traitlets.config.loader.DeferredConfigString.__repr__",
+    "views.operate_on_threes",
+    "views.operate_on_twos"
+  ],
+  "object.__class__": [
+    "markupsafe.Markup.__repr__",
+    "traitlets.config.loader.DeferredConfig._super_repr",
+    "traitlets.config.loader.DeferredConfigString.__repr__"
+  ],
+  "object.__new__": [
+    "markupsafe.Markup.__repr__",
+    "traitlets.config.loader.DeferredConfig._super_repr"
+  ],
+  "object.__repr__": [
+    "markupsafe.Markup.__repr__",
+    "traitlets.config.loader.DeferredConfig._super_repr",
+    "traitlets.config.loader.DeferredConfigString.__repr__",
+    "views.operate_on_threes",
+    "views.operate_on_twos"
+  ],
+  "pdb._rstr.__repr__": [
+    "markupsafe.Markup.__repr__",
+    "traitlets.config.loader.DeferredConfigString.__repr__",
+    "views.operate_on_threes",
+    "views.operate_on_twos"
+  ],
+  "super.__init__": [
+    "markupsafe.Markup.__repr__",
+    "traitlets.config.loader.DeferredConfig._super_repr"
+  ],
+  "traitlets.config.loader.DeferredConfig._super_repr": [
+    "traitlets.config.loader.DeferredConfigString.__repr__"
+  ],
+  "traitlets.config.loader.DeferredConfigString.__repr__": [
+    "markupsafe.Markup.__repr__",
+    "traitlets.config.loader.DeferredConfigString.__repr__",
+    "views.operate_on_threes",
+    "views.operate_on_twos"
+  ],
+  "typeshed.typeshed.stdlib.pdb._rstr.__repr__": [
+    "markupsafe.Markup.__repr__",
+    "traitlets.config.loader.DeferredConfigString.__repr__",
+    "views.operate_on_threes",
+    "views.operate_on_twos"
+  ]
+}
